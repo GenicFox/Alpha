@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary-900;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
